@@ -14,9 +14,9 @@ $ bower install
 
 Branches
 --------
-* ``master`` -- Default development branch.
-* ``qa`` -- Quality assurance branch, deployed to our QA cluster.
-* ``production`` -- Production branch, deployed to our production cluster.
+* ``master`` - Default development branch.
+* ``qa`` - Quality assurance branch, deployed to our QA cluster.
+* ``production`` - Production branch, deployed to our production cluster.
 
 Deployment
 ----------
