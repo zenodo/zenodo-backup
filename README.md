@@ -24,6 +24,7 @@ Deployment
 ```console
 $ ssh <build host>
 $ cd /opt/zenodo/scripts/
+$ fab backup_bootstrap
 $ fab backup_update
 $ fab backup_build
 $ fab backup_deploy
