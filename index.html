@@ -1,73 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Zenodo - Research. Shared.</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Zenodo - Research. Shared.</title>
 
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+  <!-- Custom styles for this template -->
+  <link href="cover.css" rel="stylesheet">
 
-  <body>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
 
-    <div class="site-wrapper">
+<body>
 
-      <div class="site-wrapper-inner">
+  <div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
 
 
-        <div class="cover-container">
+      <div class="cover-container">
 
-          <div class="masthead clearfix">
-            <div class="inner">
+        <div class="masthead clearfix">
+          <div class="inner">
             <img src="img/zenodo-white-1000.png" height="150">
-            </div>
           </div>
+        </div>
 
 
-          <div class="inner cover">
-            <h1 class="cover-heading">We'll be back soon.</h1>
-            <p class="lead">The site is experiencing unexpected problems. Our admins have been alerted, and are looking into problem.
-            Thanks for your patience.</p>
+        <div class="inner cover">
+          <h1 class="cover-heading">Service unavailable</h1>
+          <p class="lead" align="left">We have had an incident with our database infrastructure that has required us to
+            recover the database from a backup and logs of applied changes (transaction logs).</p>
+          <p class="lead" align="left">Our prime concern is to avoid data loss, thus due to the discovered discrepancies
+            in the recovered database, we need to do a thorough integrity check and fix the discovered issues. This is a
+            lengthy process, and we expect next update to be at 14:00 UTC.</p>
+          <p class="lead" align="left">We sincerely apologize for the inconvenience, and take all the necessary measures
+            to fix the issue as quickly as possible.</p>
 
+          <p>Next update: 14:00 UTC</p>
+          <p>20:34 UTC: We have discovered discrepancies that needs further investigation. We have four senior engineers
+            working on resolving the issue.</p>
+          <p>19:40 UTC: We are still working on validating integrity of the recovered database.</p>
+          <p>18:37 UTC: Database has been recovered from backup and transaction logs. We are validating integrity of the
+            recovered database.</p>
+          <p>17:30 UTC: Integrity check showed issues with repaired database. We are recovering the database from backup
+            and transaction log (expected to take about 1 hour). We expect to be able to fully recover without any data
+            loss.</p>
+          <p>16:50 UTC: We have repaired our database, and are validating integrity.</p>
+          <p>16:30 UTC: We have detected corruption in a database table, and have preventively shutdown Zenodo.</p>
+        </div>
+
+        <div class="mastfoot">
+          <div class="inner">
             <p>
-                <a class="twitter-timeline" href="https://twitter.com/ZENODO_ORG" data-widget-id="531487886680395776">Tweets by @ZENODO_ORG</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-            </p>
+              <a href="http://www.openaire.eu"><img src="img/openaire.png" width="80px" height="60px"></a>
+              <a href="http://cern.ch"><img src="img/cern.png" width="60px" height="60px"></a>
+              <a href="http://cordis.europa.eu/projects/rcn/100079_en.html"><img src="img/fp7.png" width="80px"
+                  height="60px"></a>
+              <a href="http://cordis.europa.eu/fp7/ict/e-infrastructure/"><img src="img/e-infra.png" width="100px"
+                  height="60px"></a></p>
           </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>
-        <a href="http://www.openaire.eu"><img src="img/openaire.png" width="80px" height="60px"></a>
-        <a href="http://cern.ch"><img src="img/cern.png" width="60px" height="60px"></a>
-        <a href="http://cordis.europa.eu/projects/rcn/100079_en.html"><img src="img/fp7.png" width="80px" height="60px"></a>
-        <a href="http://cordis.europa.eu/fp7/ict/e-infrastructure/"><img src="img/e-infra.png" width="100px" height="60px"></a></p>
-            </div>
-          </div>
-
         </div>
 
       </div>
 
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>
