@@ -24,40 +24,23 @@
 <body>
 
   <div class="site-wrapper">
-
     <div class="site-wrapper-inner">
-
-
       <div class="cover-container">
 
+        <!-- Zenodo logo -->
         <div class="masthead clearfix">
           <div class="inner">
             <img src="img/zenodo-white-1000.png" height="150">
           </div>
         </div>
 
-
+        <!-- Text content -->
         <div class="inner cover">
-          <h1 class="cover-heading">Service unavailable</h1>
-          <p class="lead" align="left">We have had an incident with our database infrastructure that has required us to
-            recover the database from a backup and logs of applied changes (transaction logs).</p>
-          <p class="lead" align="left">Our prime concern is to avoid data loss, thus due to the discovered discrepancies
-            in the recovered database, we need to do a thorough integrity check and fix the discovered issues. This is a
-            lengthy process, and we expect next update to be at 14:00 UTC.</p>
-          <p class="lead" align="left">We sincerely apologize for the inconvenience, and take all the necessary measures
-            to fix the issue as quickly as possible.</p>
-
-          <p>Next update: 14:00 UTC</p>
-          <p>20:34 UTC: We have discovered discrepancies that needs further investigation. We have four senior engineers
-            working on resolving the issue.</p>
-          <p>19:40 UTC: We are still working on validating integrity of the recovered database.</p>
-          <p>18:37 UTC: Database has been recovered from backup and transaction logs. We are validating integrity of the
-            recovered database.</p>
-          <p>17:30 UTC: Integrity check showed issues with repaired database. We are recovering the database from backup
-            and transaction log (expected to take about 1 hour). We expect to be able to fully recover without any data
-            loss.</p>
-          <p>16:50 UTC: We have repaired our database, and are validating integrity.</p>
-          <p>16:30 UTC: We have detected corruption in a database table, and have preventively shutdown Zenodo.</p>
+          <!-- Header message -->
+          <h1 class="cover-heading">We'll be back soon.</h1>
+          <!-- Message(s) -->
+          <p class="lead" align="left">The site is experiencing unexpected problems. Our admins have been alerted, and are looking into problem.</p>
+          <p class="lead" align="left">Thank you for your patience.</p>
         </div>
 
         <div class="mastfoot">
@@ -71,11 +54,8 @@
                   height="60px"></a></p>
           </div>
         </div>
-
       </div>
-
     </div>
-
   </div>
 
   <!-- Bootstrap core JavaScript
@@ -84,5 +64,4 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-
 </html>
