@@ -135,6 +135,10 @@ h1 {
   color: rgba(255,255,255,.5);
 }
 
+.mastfoot a {
+  vertical-align: top;
+}
+
 
 /*
  * Affix and center
