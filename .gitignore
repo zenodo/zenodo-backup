@@ -54,3 +54,6 @@ docs/_build/
 target/
 
 bower_components/
+
+# Backup files
+*.bk
